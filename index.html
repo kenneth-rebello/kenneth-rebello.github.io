@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="index.css"/>
+    
+    <title>Kenneth Rebello</title>
+</head>
+<body>
+    <section id="nav">
+        <div class="navbar">
+            <div class="title">
+                <a href="#intro"><h2>Kenneth Rebello</h2></a>
+            </div>
+            <div class="links-h">
+                <ul>
+                    <li><a href="./files/KennethRebello.pdf" target="_blank">Resume</a></li>
+                    <li><a href="#journey">About</a></li>
+                    <li><a href="#work">Work</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    
+    <section id="intro">
+        <div class="intro-row">
+            <div class="intro-text">
+                <p>Hi! I'm Kenneth and I'm a...</p>
+                <h2>Software Developer.</h2>
+                <center><p>Programmer. Movie geek. Writer (when the mood strikes).</p></center>
+            </div>
+            <div class="intro-img">
+                <img class="intro-img" src="images/me.png"/>
+            </div>
+        </div>
+    </section>
+    <section id="journey">
+        <center><h2 class="subtitle">MY JOURNEY SO FAR...</h2></center>
+        <div class="slideshow-container">
+            <div class="mySlides fade">
+              <div class="journey-slide">
+                <a onclick="nextSlide(-1)"><i class="fas fa-caret-left"></i></a>
+                  <div class="journey-year">
+                    Mar, 2015
+                  </div>               
+                  <div class="journey-info">
+                    <h2 class="journey-title">SSC</h2>
+                    <p class="journey-subtitle">89.8%</p>
+                    <p class="journey-text">
+                        St. Francis D'Assisi High School, Mumbai
+                    </p>
+                  </div>
+                  <a onclick="nextSlide(1)"><i class="fas fa-caret-right"></i></a>
+              </div>
+            </div>
+          
+            <div class="mySlides fade">
+                <div class="journey-slide">
+                    <a onclick="nextSlide(-1)"><i class="fas fa-caret-left"></i></a>
+                    <div class="journey-year">
+                      Feb, 2017
+                    </div>
+                    <div class="journey-info">
+                      <h2 class="journey-title">HSC</h2> 
+                      <p class="journey-subtitle">80.9%</p>
+                      <p class="journey-text">
+                          St. Francis D'Assisi Junior College, Mumbai
+                      </p>
+                    </div>
+                    <a onclick="nextSlide(1)"><i class="fas fa-caret-right"></i></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="journey-slide">
+                    <a onclick="nextSlide(-1)"><i class="fas fa-caret-left"></i></a>
+                    <div class="journey-year">
+                        Nov, 2019 - Jan, 2020
+                    </div>               
+                    <div class="journey-info">
+                        <h2 class="journey-title">Web Dev Intern</h2>
+                        <p class="journey-text">
+                            Front-end development using React - SixtyFour Data Intelligence, Mumbai
+                        </p>
+                    </div>
+                    <a onclick="nextSlide(1)"><i class="fas fa-caret-right"></i></a>
+                </div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="journey-slide">
+                    <a onclick="nextSlide(-1)"><i class="fas fa-caret-left"></i></a>
+                    <div class="journey-year">
+                        Jun, 2021
+                    </div>               
+                    <div class="journey-info">
+                        <h2 class="journey-title">Bachelor of Engineering</h2>
+                        <p class="journey-subtitle">8.44 CGPA</p>
+                        <p class="journey-text">
+                            Information Technology - Fr. Conceicao Rodrigues College of Engineering, Mumbai
+                        </p>
+                    </div>
+                    <a onclick="nextSlide(1)"><i class="fas fa-caret-right"></i></a>
+                </div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="journey-slide">
+                    <a onclick="nextSlide(-1)"><i class="fas fa-caret-left"></i></a>
+                    <div class="journey-year">
+                        <p>July, 2021 - Present</p>
+                    </div>               
+                    <div class="journey-info">
+                        <h2 class="journey-title">Framework Engineer Intern</h2>
+                        <p class="journey-text">
+                            Quantiphi Inc.
+                        </p>
+                    </div>
+                    <a onclick="nextSlide(1)"><i class="fas fa-caret-right"></i></a>
+                </div>
+            </div>
+
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(0)"></span>
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+            </div>
+        </div>
+    </section>
+    <section id="bio">
+        <div class="bio">
+            <center><h2 class="subtitle">ABOUT ME</h2></center>
+            <p>I hail from Mumbai, Maharashtra and am currently in the employment of Quantiphi Inc. as a Software Developer. I'm a quick and relentless learner, always seeking out new opportunities to broaden my horizons. Obsessed with doing things the right way and making sure I see every task through to completion.</p>
+            <p>Besides coding, I enjoy reading, especially mystery fiction, and dabble in writing some too. My other hobbies include football, films and travelling / driving.</p>
+        </div>
+    </section>
+
+    <section id="work">
+        <center><h2 class="subtitle">MY WORK</h2></center>
+        <div class="work-header">
+            <h4 id="projects" class="unselected"><i class="fas fa-laptop-code"></i> PROJECTS</h4>
+        </div>
+        
+        <div id="projectsDiv" class="displayOut">
+            <div class="info card card-full">
+                <h3>Edu Social</h3>
+                <p>A Social Networking website for a college, that connects students, teachers and recruiters and allows them to share posts & photos, chat with one another, manage events, and even aid in the placement process. Technologies used: MongoDB, Express, React, Node.js, Socket.io, Redux</p>
+                <div class="btn-group">
+                    <a href="https://github.com/kenneth-rebello/CRCE_Social" target="_blank"><i class="fas fa-code"></i></a>
+                    <a href="https://edusocial.herokuapp.com/" target="_blank"><i class="fas fa-globe"></i></a>
+                </div>
+            </div>
+            <div class="info card card-full">
+                <h3>Crown Clothing</h3>
+                <p>An E-commerce website for clothing retail with performance boosting and PWA functionaltiy as tested by "Lighthouse DevTools" Technologies used: React, Redux, Redux Thunk, Node js, Firebase</p>
+                <div class="btn-group">
+                    <a href="https://github.com/kenneth-rebello/Crown-Clothing" target="_blank"><i class="fas fa-code"></i></a>
+                    <a href="https://crown-clothing-kr.herokuapp.com/" target="_blank"><i class="fas fa-globe"></i></a>
+                </div>
+            </div>
+            <div class="info card card-full">
+                <h3>Project Hub</h3>
+                <p>An online platform where students can showcase their projects to be seen by peers and faculty as well. Technologies used: MongoDB, Express, Node.js, EJS</p>
+                <div class="btn-group">
+                    <a href="https://github.com/rohinvaidya/synergy-hackathon" target="_blank"><i class="fas fa-code"></i></a>
+                </div>
+            </div>
+            <div class="info card card-full">
+                <h3>Placement HQ</h3>
+                <p>Android application for managing the placement process. Flutter Application made for Android Development Labs in Sem 7.</p>
+                <div class="btn-group">
+                    <a href="https://github.com/kenneth-rebello/PlacementHQ" target="_blank"><i class="fas fa-code"></i></a>
+                </div>
+            </div>
+            <div class="info card card-full">
+                <h3>Amazon Clone</h3>
+                <p>Mini project: Clone of the popular Amazon E-Commerce website. Implemented: Landing page, Sign In, Cart and Checkout, Order history. Technologies used: React, Firebase</p>
+                <div class="btn-group">
+                    <a href="https://github.com/kenneth-rebello/amazon-clone" target="_blank"><i class="fas fa-code"></i></a>
+                    <a href="https://amaz0n-clone-707jk.web.app/" target="_blank"><i class="fas fa-globe"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="work-header">
+            <h4 id="other" class="unselected"><i class="fas fa-list"></i> OTHER</h4>
+        </div>
+        <div id="otherDiv" class="displayOut">
+            <div class="info card card-full">
+                <h4>Participations</h4>
+                <p>2nd place at XIE Coding Marathon</p>
+                <hr/>
+                <p>Finalist at Synergy Hackathon CRCE</p>
+                <hr/>
+            </div>
+            <div class="info card card-full">
+                <h4>Certificates</h4>
+                <div class="certificate-trigger">Udemy - MERN Stack <span class="certificate">
+                    <img src="./images/certs/mern.jpg" 
+                    width="300px"/>
+                </span> </div>
+                <hr/>
+                <p class="certificate-trigger">Udemy - Complete React Developer <span class="certificate">
+                    <img src="./images/certs/react.jpg" 
+                    width="300px"/>
+                </span> </p>
+                <hr/>
+                <p class="certificate-trigger">Udemy - React Native Practical Guide <span class="certificate">
+                    <img src="./images/certs/native.jpg" 
+                    width="300px"/>
+                </span> </p>
+                <hr/>
+                <p class="certificate-trigger">Udemy - Learn and Understand NodeJS <span class="certificate">
+                    <img src="./images/certs/node.jpg" 
+                    width="300px"/>
+                </span> </p>
+                <hr/>
+                <p class="certificate-trigger">Udemy - REST APIs with Flask and Python <span class="certificate">
+                    <img src="./images/certs/flask.jpg" 
+                    width="300px"/>
+                </span> </p>
+                <hr/>
+                <p class="certificate-trigger">Udemy - Python Django Dev to Deployment <span class="certificate">
+                    <img src="./images/certs/django.jpg" 
+                    width="300px"/>
+                </span> </p>
+                <hr/>
+                <p class="certificate-trigger">Udemy - Flutter & Dart Complete Guide <span class="certificate">
+                    <img src="./images/certs/flutter.jpg" 
+                    width="300px"/>
+                </span> </p>
+                <hr/>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="skills">
+        <center><h3 class="subtitle">WHAT I BRING TO THE TABLE...</h3></center> 
+        <div class="skill-row">
+            <a href="https://nodejs.org/en/" target="_blank">
+                <div class="card skill">
+                    <div >
+                        <img class="skill-img" height="180px" width="280px" src="images/skills/node.jpg"/>
+                    </div>
+                    <div class="skill-title">
+                        <h3>Node.js</h3>
+                        <div class="meter">
+                            <span style="width: 80%"></span>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <a href="https://expressjs.com/" target="_blank">
+                <div class="card skill">
+                    <div >
+                        <img class="skill-img" height="180px" width="280px" src="images/skills/express.jpg"/>
+                    </div>
+                    <div class="skill-title">
+                        <h3>Express.js</h3>
+                        <div class="meter">
+                            <span style="width: 75%"></span>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <a href="https://reactjs.org/" target="_blank">
+                <div class="card skill">
+                    <div >
+                        <img class="skill-img" height="180px" width="280px" src="images/skills/react.jpg"/>
+                    </div>
+                    <div class="skill-title">
+                        <h3>React</h3>
+                        <div class="meter">
+                            <span style="width: 80%"></span>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <a href="https://redux.js.org/" target="_blank">
+                <div class="card skill">
+                    <div >
+                        <img class="skill-img" height="180px" width="280px" src="images/skills/redux.jpg"/>
+                    </div>
+                    <div class="skill-title">
+                        <h3>Redux.js</h3>
+                        <div class="meter">
+                            <span style="width: 80%"></span>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <a href="https://en.wikipedia.org/wiki/Dynamic_HTML" target="_blank">
+                <div class="card skill">
+                    <div >
+                        <img class="skill-img" height="180px" width="280px" src="images/skills/dhtml.jpeg"/>
+                    </div>
+                    <div class="skill-title">
+                        <h3>DHTML</h3>
+                        <div class="meter">
+                            <span style="width: 90%"></span>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <a href="https://www.mongodb.com/" target="_blank">
+                <div class="card skill">
+                    <div >
+                        <img class="skill-img" height="180px" width="280px" src="images/skills/mongo.jpg"/>
+                    </div>
+                    <div class="skill-title">
+                        <h3>Mongo DB</h3>
+                        <div class="meter">
+                            <span style="width: 65%"></span>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <a href="https://firebase.google.com/" target="_blank">
+                <div class="card skill">
+                    <div >
+                        <img class="skill-img" height="180px" width="280px" src="images/skills/firebase.png"/>
+                    </div>
+                    <div class="skill-title">
+                        <h3>Firebase</h3>
+                        <div class="meter">
+                            <span style="width: 75%"></span>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <a href="https://www.postgresql.org/" target="_blank">
+                <div class="card skill">
+                    <div >
+                        <img class="skill-img" height="180px" width="280px" src="images/skills/postgres.png"/>
+                    </div>
+                    <div class="skill-title">
+                        <h3>PostgreSQL</h3>
+                        <div class="meter">
+                            <span style="width: 60%"></span>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <a href="https://www.python.org/" target="_blank">
+                <div class="card skill">
+                    <div >
+                        <img class="skill-img" height="180px" width="280px" src="images/skills/python.jpg"/>
+                    </div>
+                    <div class="skill-title">
+                        <h3>Python Programming</h3>
+                        <div class="meter">
+                            <span style="width: 90%"></span>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <a href="https://www.java.com/en/" target="_blank">
+                <div class="card skill">
+                    <div >
+                        <img class="skill-img" height="180px" width="280px" src="images/skills/java.png"/>
+                    </div>
+                    <div class="skill-title">
+                        <h3>Java Programming</h3>
+                        <div class="meter">
+                            <span style="width: 80%"></span>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <a href="https://flutter.dev/" target="_blank">
+                <div class="card skill">
+                    <div >
+                        <img class="skill-img" height="180px" width="280px" src="images/skills/flutter.jpg"/>
+                    </div>
+                    <div class="skill-title">
+                        <h3>Flutter</h3>
+                        <div class="meter">
+                            <span style="width: 75%"></span>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <a href="https://reactnative.dev/" target="_blank">
+                <div class="card skill">
+                    <div >
+                        <img class="skill-img" height="180px" width="280px" src="images/skills/reactnative.png"/>
+                    </div>
+                    <div class="skill-title">
+                        <h3>React Native</h3>
+                        <div class="meter">
+                            <span style="width: 55%"></span>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <a href="https://angular.io/" target="_blank">
+                <div class="card skill">
+                    <div >
+                        <img class="skill-img" height="180px" width="280px" src="images/skills/angular.jpeg"/>
+                    </div>
+                    <div class="skill-title">
+                        <h3>Angular</h3>
+                        <div class="meter">
+                            <span style="width: 50%"></span>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </section>
+    
+    <div class="menu">
+        <li><a href="./files/KennethRebello.pdf" target="_blank">Resume</a></li>
+        <li><a href="#journey">About</a></li>
+        <li><a href="#work">Work</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </div>
+    <footer id="contact">
+        <div class="contact-row">
+            <a href="https://github.com/kenneth-rebello" class="contact-icon" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://www.instagram.com/kenrebel07/" class="contact-icon" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/kenneth-rebello-515043182/" class="contact-icon" target="_blank"><i class="fab fa-linkedin"></i></a>
+        </div>
+        <center>
+            <p>krebello07@gmail.com</p>
+            <span class="copyright">Copyright &COPY; Kenneth 2021</span>
+        </center>
+    </footer>
+
+    <script type="text/javascript" src="index.js"></script>
+</body>
+</html>
